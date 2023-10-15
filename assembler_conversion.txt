@@ -1,0 +1,10 @@
+MOV r1, r2			e1a01002
+MOV r3, #7			e3a03007
+ADD r7, r3, #5		e2837005
+SUB r8, r6, r3		e0468003
+MUL r3, r4, r5		e0030594
+LSL r1, r2, r3		e1a01312
+ASR r2, r3, r4		e1a02453
+LDR r1, [r2]		e5921000
+LDR r2, [r0, #4]	e5902004
+STR r1, [r2, r3]	e7821003
